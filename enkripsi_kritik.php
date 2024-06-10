@@ -47,10 +47,4 @@ if ($query) {
     echo "proses gagal";
 }
 
-// Bagian yang dikomentari untuk dekripsi dan pembalikan Rot13
-/*
-$cek2 = xor_encrypt($ciphertext, $key); // Dekripsi data menggunakan XOR dengan kunci yang sama
-$final = Rot13($cek2); // Balikkan enkripsi Rot13
-echo $final;
-*/
 ?>
